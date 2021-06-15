@@ -1,0 +1,17 @@
+simulation:
+  end_time: 5
+  grid_elements: 300
+  grid_size: 6.18
+
+solver:
+  order: 1
+  courant: 0.5
+  timeintegrator: SSPRK2
+
+equation:
+  equation: mhd
+  scenario: orszag_tang
+
+output:
+  start: 0 #s
+  step: 0.01 #s

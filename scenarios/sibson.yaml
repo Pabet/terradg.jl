@@ -1,0 +1,17 @@
+simulation:
+  end_time: 1.0
+  grid_elements: 20
+  grid_size: 1.0
+
+solver:
+  order: 2
+  courant: 0.5
+  timeintegrator: Euler
+
+equation:
+  equation: sibson
+  scenario: worksheet2
+
+output:
+  start: 0 #s
+  step: 0.1 #s

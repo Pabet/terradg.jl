@@ -1,0 +1,17 @@
+simulation:
+  end_time: 1.0
+  grid_elements: 40
+  grid_size: 1.0
+
+solver:
+  order: 2
+  courant: 0.5
+  timeintegrator: SSPRK3
+
+equation:
+  equation: advection
+  scenario: planar_waves
+
+output:
+  start: 0 #s
+  step: 0.1 #s

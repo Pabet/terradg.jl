@@ -1,0 +1,17 @@
+simulation:
+  end_time: 1.0
+  grid_elements: 200
+  grid_size: 1.0
+
+solver:
+  order: 1
+  courant: 0.5
+  timeintegrator: SSPRK2
+
+equation:
+  equation: mhd
+  scenario: rotor
+
+output:
+  start: 0 #s
+  step: 0.01 #s

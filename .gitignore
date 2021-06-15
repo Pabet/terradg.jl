@@ -1,0 +1,13 @@
+output/
+docs/build
+Manifest.toml
+auto/
+*.aux
+*.bbl
+*.blg
+*.log
+*.synctex.gz
+*.avi
+*.pvsm
+*.out
+
